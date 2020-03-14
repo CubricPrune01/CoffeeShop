@@ -1,0 +1,350 @@
+{
+  "$type": "System.Collections.Generic.List`1[[CoffeeShopLib.Customer, CoffeeShopLib]], mscorlib",
+  "$values": [
+    {
+      "$type": "CoffeeShopLib.Customer, CoffeeShopLib",
+      "Address": {
+        "$type": "CoffeeShopLib.Address, CoffeeShopLib",
+        "Street": "35 Elm St",
+        "City": "Toronto",
+        "Province": "ON",
+        "PostalCode": "M2M 2K5"
+      },
+      "IdNumber": 17,
+      "Name": "Jon Smith",
+      "Phone": 4161234567,
+      "Orders": {
+        "$type": "System.Collections.Generic.List`1[[CoffeeShopLib.Order, CoffeeShopLib]], mscorlib",
+        "$values": [
+          {
+            "$type": "CoffeeShopLib.Order, CoffeeShopLib",
+            "Items": {
+              "$type": "System.Collections.Generic.List`1[[CoffeeShopLib.OrderItem, CoffeeShopLib]], mscorlib",
+              "$values": [
+                {
+                  "$type": "CoffeeShopLib.OrderItem, CoffeeShopLib",
+                  "MenuItem": {
+                    "$type": "CoffeeShopLib.MenuItemAdditions.Suggar, CoffeeShopLib",
+                    "menu": null,
+                    "Description": "Black coffee Sugar",
+                    "Cost": 2.05
+                  }
+                },
+                {
+                  "$type": "CoffeeShopLib.OrderItem, CoffeeShopLib",
+                  "MenuItem": {
+                    "$type": "CoffeeShopLib.MenuItemAdditions.Suggar, CoffeeShopLib",
+                    "menu": null,
+                    "Description": "Black coffee Sugar Sugar",
+                    "Cost": 2.10
+                  }
+                },
+                {
+                  "$type": "CoffeeShopLib.OrderItem, CoffeeShopLib",
+                  "MenuItem": {
+                    "$type": "CoffeeShopLib.MenuItemAdditions.Suggar, CoffeeShopLib",
+                    "menu": null,
+                    "Description": "Black coffee Milk Sugar",
+                    "Cost": 2.15
+                  }
+                },
+                {
+                  "$type": "CoffeeShopLib.OrderItem, CoffeeShopLib",
+                  "MenuItem": {
+                    "$type": "CoffeeShopLib.MenuItemAdditions.Suggar, CoffeeShopLib",
+                    "menu": null,
+                    "Description": "Black coffee Milk Sugar",
+                    "Cost": 2.15
+                  }
+                }
+              ]
+            },
+            "OrderId": 3,
+            "Name": "Jon Smith",
+            "OrderTime": "2019-10-22T19:54:47.1948555-04:00",
+            "DeliveryTime": "2019-10-22T19:54:47.216843-04:00",
+            "OrderStatus": true,
+            "DeliveryAddress": {
+              "$type": "CoffeeShopLib.Address, CoffeeShopLib",
+              "Street": "1 King St",
+              "City": "Toronto",
+              "Province": "ON",
+              "PostalCode": "M1M 1M1"
+            },
+            "TotalCost": 8.45
+          },
+          {
+            "$type": "CoffeeShopLib.Order, CoffeeShopLib",
+            "Items": {
+              "$type": "System.Collections.Generic.List`1[[CoffeeShopLib.OrderItem, CoffeeShopLib]], mscorlib",
+              "$values": [
+                {
+                  "$type": "CoffeeShopLib.OrderItem, CoffeeShopLib",
+                  "MenuItem": {
+                    "$type": "CoffeeShopLib.MenuItemAdditions.Milk, CoffeeShopLib",
+                    "menu": null,
+                    "Description": "Tea Milk Milk",
+                    "Cost": 2.00
+                  }
+                },
+                {
+                  "$type": "CoffeeShopLib.OrderItem, CoffeeShopLib",
+                  "MenuItem": {
+                    "$type": "CoffeeShopLib.MenuItems.SandwichWithBacon, CoffeeShopLib",
+                    "Description": "White bread sandwich with bacon",
+                    "Cost": 5.00
+                  }
+                }
+              ]
+            },
+            "OrderId": 6,
+            "Name": "Jon Smith",
+            "OrderTime": "2019-10-22T19:54:47.2008435-04:00",
+            "DeliveryTime": "2019-10-22T19:54:47.2178405-04:00",
+            "OrderStatus": true,
+            "DeliveryAddress": {
+              "$type": "CoffeeShopLib.Address, CoffeeShopLib",
+              "Street": "1 King St",
+              "City": "Toronto",
+              "Province": "ON",
+              "PostalCode": "M1M 1M1"
+            },
+            "TotalCost": 7.00
+          }
+        ]
+      },
+      "NoOfOrders": 0,
+      "OrderItem": null,
+      "NameOfItem": null,
+      "MenuItem": null
+    },
+    {
+      "$type": "CoffeeShopLib.Customer, CoffeeShopLib",
+      "Address": {
+        "$type": "CoffeeShopLib.Address, CoffeeShopLib",
+        "Street": "35 Queen St",
+        "City": "Toronto",
+        "Province": "ON",
+        "PostalCode": "M2T 1M1"
+      },
+      "IdNumber": 17,
+      "Name": "Ann Brown",
+      "Phone": 4169876543,
+      "Orders": {
+        "$type": "System.Collections.Generic.List`1[[CoffeeShopLib.Order, CoffeeShopLib]], mscorlib",
+        "$values": [
+          {
+            "$type": "CoffeeShopLib.Order, CoffeeShopLib",
+            "Items": {
+              "$type": "System.Collections.Generic.List`1[[CoffeeShopLib.OrderItem, CoffeeShopLib]], mscorlib",
+              "$values": [
+                {
+                  "$type": "CoffeeShopLib.OrderItem, CoffeeShopLib",
+                  "MenuItem": {
+                    "$type": "CoffeeShopLib.MenuItemAdditions.Milk, CoffeeShopLib",
+                    "menu": null,
+                    "Description": "Black coffee Milk",
+                    "Cost": 2.10
+                  }
+                },
+                {
+                  "$type": "CoffeeShopLib.OrderItem, CoffeeShopLib",
+                  "MenuItem": {
+                    "$type": "CoffeeShopLib.MenuItemAdditions.Milk, CoffeeShopLib",
+                    "menu": null,
+                    "Description": "Black coffee Milk",
+                    "Cost": 2.10
+                  }
+                }
+              ]
+            },
+            "OrderId": 4,
+            "Name": "Ann Brown",
+            "OrderTime": "2019-10-22T19:54:47.2008435-04:00",
+            "DeliveryTime": "2019-10-22T19:54:47.2178405-04:00",
+            "OrderStatus": true,
+            "DeliveryAddress": {
+              "$type": "CoffeeShopLib.Address, CoffeeShopLib",
+              "Street": "1 King St",
+              "City": "Toronto",
+              "Province": "ON",
+              "PostalCode": "M1M 1M1"
+            },
+            "TotalCost": 4.20
+          }
+        ]
+      },
+      "NoOfOrders": 0,
+      "OrderItem": null,
+      "NameOfItem": null,
+      "MenuItem": null
+    },
+    {
+      "$type": "CoffeeShopLib.Customer, CoffeeShopLib",
+      "Address": {
+        "$type": "CoffeeShopLib.Address, CoffeeShopLib",
+        "Street": "",
+        "City": "Toronto",
+        "Province": "ON",
+        "PostalCode": ""
+      },
+      "IdNumber": 17,
+      "Name": "John Dow",
+      "Phone": 0,
+      "Orders": {
+        "$type": "System.Collections.Generic.List`1[[CoffeeShopLib.Order, CoffeeShopLib]], mscorlib",
+        "$values": [
+          {
+            "$type": "CoffeeShopLib.Order, CoffeeShopLib",
+            "Items": {
+              "$type": "System.Collections.Generic.List`1[[CoffeeShopLib.OrderItem, CoffeeShopLib]], mscorlib",
+              "$values": [
+                {
+                  "$type": "CoffeeShopLib.OrderItem, CoffeeShopLib",
+                  "MenuItem": {
+                    "$type": "CoffeeShopLib.MenuItemAdditions.Milk, CoffeeShopLib",
+                    "menu": null,
+                    "Description": "Dark roast coffee Milk Milk",
+                    "Cost": 2.20
+                  }
+                },
+                {
+                  "$type": "CoffeeShopLib.OrderItem, CoffeeShopLib",
+                  "MenuItem": {
+                    "$type": "CoffeeShopLib.MenuItemAdditions.Milk, CoffeeShopLib",
+                    "menu": null,
+                    "Description": "Tea Milk",
+                    "Cost": 1.90
+                  }
+                },
+                {
+                  "$type": "CoffeeShopLib.OrderItem, CoffeeShopLib",
+                  "MenuItem": {
+                    "$type": "CoffeeShopLib.MenuItemAdditions.Milk, CoffeeShopLib",
+                    "menu": null,
+                    "Description": "Tea Milk",
+                    "Cost": 1.90
+                  }
+                }
+              ]
+            },
+            "OrderId": 5,
+            "Name": "John Dow",
+            "OrderTime": "2019-10-22T19:54:47.2008435-04:00",
+            "DeliveryTime": "2019-10-22T19:54:47.2178405-04:00",
+            "OrderStatus": true,
+            "DeliveryAddress": {
+              "$type": "CoffeeShopLib.Address, CoffeeShopLib",
+              "Street": "1 King St",
+              "City": "Toronto",
+              "Province": "ON",
+              "PostalCode": "M1M 1M1"
+            },
+            "TotalCost": 6.00
+          }
+        ]
+      },
+      "NoOfOrders": 0,
+      "OrderItem": null,
+      "NameOfItem": null,
+      "MenuItem": null
+    },
+    {
+      "$type": "CoffeeShopLib.Customer, CoffeeShopLib",
+      "Address": {
+        "$type": "CoffeeShopLib.Address, CoffeeShopLib",
+        "Street": "1 King St",
+        "City": "Toronto",
+        "Province": "ON",
+        "PostalCode": "M1M 1M1"
+      },
+      "IdNumber": 17,
+      "Name": "Coffee and sandwiches",
+      "Phone": 0,
+      "Orders": {
+        "$type": "System.Collections.Generic.List`1[[CoffeeShopLib.Order, CoffeeShopLib]], mscorlib",
+        "$values": [
+          {
+            "$type": "CoffeeShopLib.Order, CoffeeShopLib",
+            "Items": {
+              "$type": "System.Collections.Generic.List`1[[CoffeeShopLib.OrderItem, CoffeeShopLib]], mscorlib",
+              "$values": [
+                {
+                  "$type": "CoffeeShopLib.OrderItem, CoffeeShopLib",
+                  "MenuItem": {
+                    "$type": "CoffeeShopLib.MenuItems.SandwichWithBacon, CoffeeShopLib",
+                    "Description": "White bread sandwich with bacon",
+                    "Cost": 5.00
+                  }
+                }
+              ]
+            },
+            "OrderId": 3,
+            "Name": null,
+            "OrderTime": "0001-01-01T00:00:00",
+            "DeliveryTime": "0001-01-01T00:00:00",
+            "OrderStatus": false,
+            "DeliveryAddress": {
+              "$type": "CoffeeShopLib.Address, CoffeeShopLib",
+              "Street": null,
+              "City": null,
+              "Province": null,
+              "PostalCode": null
+            },
+            "TotalCost": 5.00
+          },
+          {
+            "$type": "CoffeeShopLib.Order, CoffeeShopLib",
+            "Items": {
+              "$type": "System.Collections.Generic.List`1[[CoffeeShopLib.OrderItem, CoffeeShopLib]], mscorlib",
+              "$values": [
+                {
+                  "$type": "CoffeeShopLib.OrderItem, CoffeeShopLib",
+                  "MenuItem": {
+                    "$type": "CoffeeShopLib.MenuItems.SandwichWithRoastedBeef, CoffeeShopLib",
+                    "Description": "White bread sandwich with roasted beef",
+                    "Cost": 5.5
+                  }
+                },
+                {
+                  "$type": "CoffeeShopLib.OrderItem, CoffeeShopLib",
+                  "MenuItem": {
+                    "$type": "CoffeeShopLib.MenuItems.SandwichWithEggSalad, CoffeeShopLib",
+                    "Description": "White bread sandwich with egg salad",
+                    "Cost": 4.00
+                  }
+                },
+                {
+                  "$type": "CoffeeShopLib.OrderItem, CoffeeShopLib",
+                  "MenuItem": {
+                    "$type": "CoffeeShopLib.MenuItemAdditions.Lettuce, CoffeeShopLib",
+                    "menu": null,
+                    "Description": "White bread sandwich with egg salad Lettuce",
+                    "Cost": 4.30
+                  }
+                }
+              ]
+            },
+            "OrderId": 3,
+            "Name": null,
+            "OrderTime": "0001-01-01T00:00:00",
+            "DeliveryTime": "0001-01-01T00:00:00",
+            "OrderStatus": false,
+            "DeliveryAddress": {
+              "$type": "CoffeeShopLib.Address, CoffeeShopLib",
+              "Street": null,
+              "City": null,
+              "Province": null,
+              "PostalCode": null
+            },
+            "TotalCost": 13.80
+          }
+        ]
+      },
+      "NoOfOrders": 0,
+      "OrderItem": null,
+      "NameOfItem": null,
+      "MenuItem": null
+    }
+  ]
+}
